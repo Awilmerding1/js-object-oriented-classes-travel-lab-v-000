@@ -31,6 +31,8 @@ class Route {
     }
     
     let vStart = eastWest.findIndex(this.beginningLocation[1])
+    
+    
   }
   
 }
