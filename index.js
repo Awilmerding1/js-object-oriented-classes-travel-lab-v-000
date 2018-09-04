@@ -20,9 +20,7 @@ class Route {
   
   blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-    
-    let h;
-    let v;
+  
     
     let hStart = Number.parseInt(this.beginningLocation['vertical'], 10) 
     let hEnd = Number.parseInt(this.endingLocation['vertical'], 10)
