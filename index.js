@@ -32,7 +32,7 @@ class Route {
     
     let vStart = eastWest.findIndex(this.beginningLocation[1])
     
-     let vEnd = eastWest.findIndex(this.endingLocation[1])
+    let vEnd = eastWest.findIndex(this.endingLocation[1])
     
     
   }
