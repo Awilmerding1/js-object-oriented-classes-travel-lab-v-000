@@ -32,7 +32,7 @@ class Route {
     
     let vStart = eastWest.findIndex(`${this.beginningLocation['horizontal']}`)
     
-    let vEnd = eastWest.findIndex(this.endingLocation['horizontal'])
+    let vEnd = eastWest.findIndex(`${this.endingLocation['horizontal']}`)
     
     if (vStart < vEnd) {
       let v = vEnd - vStart
