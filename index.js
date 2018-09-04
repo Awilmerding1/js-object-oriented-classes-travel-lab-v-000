@@ -35,10 +35,10 @@ class Route {
     
     let vEnd = eastWest.indexOf(this.endingLocation['horizontal'])
     
-    if (vStart < vEnd) {
-      let v = vEnd - vStart
+    let v = if (vStart < vEnd) {
+      return vEnd - vStart
     } else {
-      let v =  vStart - vEnd
+      return  vStart - vEnd
     }
     
     return v + h
