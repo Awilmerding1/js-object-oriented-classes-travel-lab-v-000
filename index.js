@@ -30,10 +30,6 @@ class Route {
       let h =  hStart - hEnd
     }
     
-    function findAveIndex(element) {
-      return element === element;
-    }
-    
     let vStart = this.beginningLocation['horizontal']
     
     let vEnd this.endingLocation['horizontal']
