@@ -34,6 +34,11 @@ class Route {
     
     let vEnd = eastWest.findIndex(this.endingLocation[1])
     
+    if (vStart < vEnd) {
+      let v = vEnd - vStart
+    } else {
+      let v =  vStart - vEnd
+    }
     
   }
   
