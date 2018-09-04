@@ -30,6 +30,10 @@ class Route {
       let h =  hStart - hEnd
     }
     
+    function findAveIndex(element) {
+      return element > 13;
+    }
+    
     let vStart = eastWest.findIndex(this.beginningLocation['horizontal'])
     
     let vEnd = eastWest.findIndex(this.endingLocation['horizontal'])
