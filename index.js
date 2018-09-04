@@ -40,7 +40,7 @@ class Route {
       let v =  vStart - vEnd
     }
     
-    return  h
+    return v + h
     
   }
   
