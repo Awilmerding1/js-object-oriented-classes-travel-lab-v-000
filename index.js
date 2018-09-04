@@ -21,7 +21,9 @@ class Route {
     let hStart = Number.parseInt(this.beginningLocation[0], 10) 
     let hEnd = Number.parseInt(this.endingLocation[0], 10)
     
-    if (hStart < hEnd)
+    if (hStart < hEnd) {
+      let h = hEnd - Start
+    }
     
     let v = this.beginningLocation[1]
   }
