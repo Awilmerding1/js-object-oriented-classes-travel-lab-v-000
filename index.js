@@ -30,7 +30,7 @@ class Route {
       let h =  hStart - hEnd
     }
     
-    function findAveIndex(element) {
+    let function findAveIndex(element) {
       return element > 13;
     }
     
