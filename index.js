@@ -27,7 +27,7 @@ class Route {
       let h =  hStart - hEnd
     }
     
-    let v = this.beginningLocation[1]
+    let vStart = this.beginningLocation[1]
   }
   
 }
