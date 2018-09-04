@@ -46,6 +46,8 @@ class Route {
     return v + h
   }
   
-  
+  estimatedTime() {
+    
+  }
   
 }
