@@ -32,8 +32,7 @@ class Route {
     
     let vStart = this.beginningLocation['horizontal']
     
-    let vEnd this.endingLocation['horizontal']
-    
+    let vEnd = this.endingLocation['horizontal']
     
     
     if (vStart < vEnd) {
