@@ -21,8 +21,8 @@ class Route {
   blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
-    let hStart = Number.parseInt(this.beginningLocation[1], 10) 
-    let hEnd = Number.parseInt(this.endingLocation[1], 10)
+    let hStart = Number.parseInt(this.beginningLocation[vertical], 10) 
+    let hEnd = Number.parseInt(this.endingLocation[vertical], 10)
     
     if (hStart < hEnd) {
       let h = hEnd - hStart
@@ -30,9 +30,9 @@ class Route {
       let h =  hStart - hEnd
     }
     
-    let vStart = eastWest.findIndex(this.beginningLocation[0])
+    let vStart = eastWest.findIndex(this.beginningLocation[horizontal])
     
-    let vEnd = eastWest.findIndex(this.endingLocation[0])
+    let vEnd = eastWest.findIndex(this.endingLocation[horizontal])
     
     if (vStart < vEnd) {
       let v = vEnd - vStart
