@@ -18,7 +18,7 @@ class Route {
   }
   
   blocksTravelled() {
-    let h = this.beginningLocation[0] - this.endingLocation[0]
+    let h = Number.parseInt(this.beginningLocation[0]) - this.endingLocation[0]
     let v = this.beginningLocation[1]
   }
   
