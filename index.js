@@ -17,6 +17,8 @@ class Route {
     this.endingLocation = endingLocation
   }
   
+  let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+  
   blocksTravelled() {
     let hStart = Number.parseInt(this.beginningLocation[0], 10) 
     let hEnd = Number.parseInt(this.endingLocation[0], 10)
