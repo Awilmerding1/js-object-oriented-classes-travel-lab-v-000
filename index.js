@@ -30,7 +30,7 @@ class Route {
       let h =  hStart - hEnd
     }
     
-    let vStart = this.beginningLocation[1]
+    let vStart = eastWest.findIndex(this.beginningLocation[1])
   }
   
 }
